@@ -40,7 +40,9 @@ jobs:
         cd semantic_search
         pip install -r requirements1.txt
         python3 -m pytest pytest_semantic/test.py
-
+    
+    - name: Test with pytest
+      run: |
         cd text_analyzer
         pip install -r requirements2.txt
         python3 -m pytest pytest_h/test_main.py
