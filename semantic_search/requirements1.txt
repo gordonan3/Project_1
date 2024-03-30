@@ -1,0 +1,8 @@
+fastapi
+httpx
+pydantic
+pydantic_core
+scikit-image
+sentence_transformers
+transformers
+uvicorn
