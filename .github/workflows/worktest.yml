@@ -43,5 +43,5 @@ jobs:
 
         cd text_analyzer
         pip install -r requirements2.txt
-        python3 -m pytest text_analyzer/test_main.py
+        python3 -m pytest test_main.py
 
