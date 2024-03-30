@@ -38,7 +38,7 @@ jobs:
       run: |
         cd semantic_search
         pip install -r requirements.txt
-        python3 -m pytest semantic_search/test.py
+        python3 -m pytest pytest_semantic/test.py
 
         cd text_analyzer
         pip install -r requirements.txt
