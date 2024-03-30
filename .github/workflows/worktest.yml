@@ -38,7 +38,7 @@ jobs:
       run: |
         cd semantic_search
         pip install -r requirements.txt
-        python3 -m pytest test.py
+        python3 -m pytest semantic_search/test.py
 
         cd fast_api_app
         pip install -r requirements.txt
