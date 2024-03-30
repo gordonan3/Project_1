@@ -40,7 +40,7 @@ jobs:
         pip install -r requirements.txt
         python3 -m pytest semantic_search/test.py
 
-        cd fast_api_app
+        cd text_analyzer
         pip install -r requirements.txt
         python3 -m pytest text_analyzer/test_main.py
         
