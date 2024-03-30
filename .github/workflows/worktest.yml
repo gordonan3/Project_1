@@ -28,6 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements1.txt ]; then pip install -r requirements1.txt; fi
+        if [ -f requirements2.txt ]; then pip install -r requirements2.txt; fi
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
@@ -39,3 +40,8 @@ jobs:
         cd semantic_search
         pip install -r requirements1.txt
         python3 -m pytest pytest_semantic/test.py
+
+        cd text_analyzer
+        pip install -r requirements.txt
+        python3 -m pytest text_analyzer/test_main.py
+
