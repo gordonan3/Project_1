@@ -1,5 +1,5 @@
 import pytest   # noqa: F401
-from Model_3 import app
+from semantic_fastapi import app
 from fastapi.testclient import TestClient
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
