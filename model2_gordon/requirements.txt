@@ -1,7 +1,0 @@
-httpx
-pytest
-fastapi
-sentence-transformers
-scikit-learn
-uvicorn
-pydantic
